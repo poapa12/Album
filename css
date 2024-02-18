@@ -1,0 +1,98 @@
+body {
+  background-image: url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=1380&t=st=1708281520~exp=1708282120~hmac=828d4f4fadceb1f8f5aeb58517182745dfb2c4f534d5b8f65dcbad5fd2a0a51a;');
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d4d4d4;
+}
+
+
+header {
+  background-image: url('https://d1di2lzuh97fh2.cloudfront.net/files/1w/1wn/1wn1s7.jpg?ph=262f4c5cd1'); /* Cesta k obrázku */
+  background-size: cover; /* Obrázek se bude snažit vyplnit celý header */
+  background-position: center; /* Obrázek bude zarovnán na střed */
+  text-align: center;
+  padding: 20px;
+  color: #fff; /* Barva textu */
+  backdrop-filter: blur(10px); /* Rozmazání pouze pozadí */
+}
+
+
+#filter-section {
+  margin-top: 10px;
+}
+
+#logo {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Arial Black', sans-serif;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe {
+  border: 1px solid #ccc;
+  margin: 10px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.recipe img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-content {
+  padding: 20px;
+}
+
+.recipe h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.recipe p {
+  margin: 0;
+}
+
+.recipe:hover {
+  transform: scale(1.05); /* Zvětšení receptu o 5% při najetí kurzorem */
+  transition: transform 0.3s ease; /* Plynulá animace zvětšení */
+}
+
+#banner {
+  background-color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 20px;
+  overflow: hidden; /* Skryje přetečení obsahu */
+}
+
+#banner img {
+  width: 100%; /* Nastaví šířku obrázku na 100 % šířky rodičovského prvku */
+  height: 150px; /* Pevná výška obrázku */
+  object-fit: cover; /* Zajistí, aby obrázek vyplnil rodičovský prvek */
+  filter: blur(3px); /* Rozmaže obrázek */
+}
+
+#banner .banner-text {
+  position: absolute; /* Absolutní pozice pro text */
+  top: 200px; /* Vzdálenost textu od horního okraje banneru */
+  left: 50%; /* Zarovnání textu na střed horizontálně */
+  transform: translateX(-50%); /* Posuneme text o polovinu jeho vlastní šířky doleva */
+  color: #fff; /* Barva textu */
+  font-family: 'Dancing Script', cursive; /* Romantické písmo */
+  font-size: 36px; /* Větší velikost písma */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Stín textu */
+}
