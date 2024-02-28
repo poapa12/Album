@@ -32,6 +32,79 @@ header {
   font-family: 'Arial Black', sans-serif;
 }
 
+/* Minimalismus */
+.filter {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+background-color: #f0f0f0;
+color: #333;
+font-family: Arial, sans-serif;
+}
+
+/* Flat Design */
+.filter {
+border: none;
+border-radius: 3px;
+padding: 8px 12px;
+background-color: #3498db;
+color: #fff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.filter:hover {
+background-color: #2980b9;
+}
+
+/* Material Design */
+.filter {
+border: none;
+border-radius: 2px;
+padding: 10px;
+background-color: #e0e0e0;
+color: #333;
+font-family: 'Roboto', sans-serif;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filter:hover {
+background-color: #bdbdbd;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#search-bar {
+  margin-top: 20px; /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+  text-align: center;
+}
+
+#search-input {
+  padding: 8px 15px; /* Adjust padding as needed */
+  border-radius: 15px; /* Make the input rounded */
+  border: 1px solid #ccc;
+  font-size: 14px; /* Adjust font size as needed */
+  width: 250px; /* Adjust width as needed */
+  margin-right: 10px; /* Adjust as needed */
+}
+
+#search-button {
+  padding: 8px 15px; /* Adjust padding as needed */
+  border-radius: 15px; /* Make the button rounded */
+  border: none;
+  background-color: #007bff; /* Adjust color as needed */
+  color: white;
+  font-size: 14px; /* Adjust font size as needed */
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0056b3; /* Adjust color as needed */
+}
+
 main {
   padding: 20px;
   display: flex;
@@ -95,4 +168,16 @@ main {
   font-family: 'Dancing Script', cursive; /* Romantické písmo */
   font-size: 36px; /* Větší velikost písma */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Stín textu */
+}
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #search-bar {
+    margin-top: 20px;
+  }
 }
