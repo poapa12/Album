@@ -18,7 +18,7 @@ SMARTCOOJ byl vytvořen pomocí následujících technologií:
 
 Struktura projektu je následující:
 
-- **dd.html**: Hlavní HTML soubor obsahující strukturu aplikace.
-- **dd.css**: Stylovací soubor definující vzhled a formátování aplikace.
-- **ddd.js**: Skriptovací soubor obsahující logiku a interaktivitu aplikace.
+- **index.html**: Hlavní HTML soubor obsahující strukturu aplikace.
+- **styles.css**: Stylovací soubor definující vzhled a formátování aplikace.
+- **script.js**: Skriptovací soubor obsahující logiku a interaktivitu aplikace.
 - **images/**: Složka obsahující obrázky použité v receptech.
